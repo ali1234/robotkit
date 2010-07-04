@@ -1,0 +1,42 @@
+material Plate
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.428627 0.003333 1.000000
+			diffuse 0.800000 0.685803 0.005333 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ServoBody
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.090279 0.090279 0.090279 1.000000
+			diffuse 0.144447 0.144447 0.144447 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
+material ServoHorn
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.429471 0.429471 0.429471 1.000000
+			diffuse 0.687153 0.687153 0.687153 1.000000
+			specular 0.500000 0.500000 0.500000 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}
