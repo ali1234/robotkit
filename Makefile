@@ -1,6 +1,6 @@
 HEADERS=parts.h hexapod.h
 OFILES=main.o parts.o hexapod.o BtOgre.o
-CXXFLAGS=-g -Wall -I/usr/include/OGRE -I/usr/local/include -Ibtogre/include -L/usr/local/lib
+CXXFLAGS=-g -Wall -I/usr/include/OGRE -I/usr/local/include/bullet -Ibtogre/include -L/usr/local/lib
 EXENAME=hexapod
 
 all: $(EXENAME)
